@@ -1,5 +1,3 @@
-
-
 const fetch = require("node-fetch");
 const dotenv = require("dotenv");
 dotenv.config();
@@ -140,7 +138,7 @@ const processChain =
 // Example usage
 async function run() {
   try {
-    const q1 = "Where Narender modi is born?";
+    const q1 = "Where Narendra Modi is born?";
 
     const input = { Q1: `${q1}` };
     const curriedProcessChain = processChain(input);
